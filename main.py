@@ -8,8 +8,8 @@ if __name__ == '__main__':
 
 
     headers = {
-        "Cookie": "_yuque_session=GjmDSBKgdOqFpJrwqFMTeVx0lUWVjytlOs0Ih300v7JTAuIoMUvPRFBek13m3bCaPoYMX4KvoRJCFcKKl1Rukg==; _uab_collina=170960582359858110786178; tfstk=eRn2ns1j_nK2l0WIuzqa8lz1NfZYjkdB0cN_IADghSVcci1izxMUhZ9xI5lZN7E_Gmgj7tnrTGsXMEHGblZMOBtBAxHbXlAB0PzBGxh_w9-XAHMxn8-zHItBHsPO_MrsKTTeuzOnp7mSf8I6AIzbaGjFp-4DOYb1AMib3roin7kq30y4uWjz_1elffntu1bao8ezOLJrzzY89wKioSQOWzqLUW9bhNQTo82zOKUFWNUuU8PBhGf..; yuque_ctoken=-LxSLkr_xMTNf6mzxm3nOQbU;",
-        "X-Csrf-Token": "-LxSLkr_xMTNf6mzxm3nOQbU"}
+        "Cookie": "_yuque_session=; _uab_collina=; tfstk=; yuque_ctoken=;",
+        "X-Csrf-Token": ""}
     knowledgeBaseData = requests.get(knowledgeBaseUrl, headers=headers).json()['data']
 
     problem_doc_list=[]
